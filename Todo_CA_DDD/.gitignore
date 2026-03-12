@@ -1,0 +1,20 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+.idea/
+
+## EF Core migrations (keep source, ignore auto-generated snapshots if desired)
+# Uncomment the line below to ignore migration snapshots:
+# **/Migrations/
+
+## Secrets
+appsettings.Development.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
